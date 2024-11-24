@@ -2147,6 +2147,10 @@ section,
   }
 }
 
+.hero .btn-getstarted {
+  display: none;
+}
+
 @media (max-width: 400px) {
   /* 모바일 화면에서 sidebar를 숨김 */
   .hero .sidebar {
@@ -2168,7 +2172,7 @@ section,
     padding-top: 0;  /* 기본적으로 여백 없앰 */
   }
 
-  .hero .btn-getstarted {
+  header .btn-getstarted {
     display: none;
   }
 }
