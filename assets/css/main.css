@@ -2167,4 +2167,8 @@ section,
   .hero {
     padding-top: 0;  /* 기본적으로 여백 없앰 */
   }
+
+  .hero .btn-getstarted {
+    display: none;
+  }
 }
