@@ -62,8 +62,9 @@
 --------------------------------------------------------------*/
 body {
   color: var(--default-color);
-  background-color: var(--background-color);
+  background-color: var(--accent-color);
   font-family: var(--default-font);
+  background-image: url('assets/img/background_2.png'); /* 배경 이미지 경로 */
 }
 
 a {
@@ -215,9 +216,9 @@ h6 {
 
 /* Index Page Header
 ------------------------------*/
-.index-page .header {
+/* .index-page .header {
   --background-color: rgba(255, 255, 255, 0);
-}
+} */
 
 /* Index Page Header on Scroll
 ------------------------------*/
@@ -849,7 +850,7 @@ section,
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-.hero {
+/* .hero {
   width: 100%;
   min-height: 70vh;
   position: relative;
@@ -966,7 +967,7 @@ section,
   .hero .btn-watch-video {
     font-size: 13px;
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Featured Services Section
@@ -1946,4 +1947,182 @@ section,
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+}
+
+.hero {
+  font-family: Arial, sans-serif;
+  background-color: #7395a0;
+  background-size: cover; /* Makes the background image cover the entire page */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  display: flex; /* Use flexbox to center content */
+  justify-content: center; /* Centers horizontally */
+  background-image: url('assets/img/background_2.png'); /* 배경 이미지 경로 */
+  align-items: center; /* Centers vertically */
+}
+
+.hero .container {
+  display: flex;
+  height: 80%;
+  margin-top: 5%;
+  width: 95%;
+  max-width: 1200px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* .container {
+  display: flex;
+  width: 80%;
+  max-width: 1200px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} */
+
+.hero .sidebar {
+  background-color: rgb(129, 143, 148);
+  width: 30%;
+  padding: 20px;
+  border-radius: 20px 0 0 20px;
+  margin-left: -1%;
+}
+
+.hero .app-title h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color:#f0f8ff;
+}
+
+.hero .app-title p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color:#f0f8ff;
+}
+
+/* .assistant-img {
+  width: 100%;
+  max-width: 150px;
+  margin-top: 10px;
+  border-radius: 15px;
+} */
+
+.hero .buttons button {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  background-color: #f8e0e5;
+  border: 2px solid #f1b6b1;
+  border-radius: 10px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.hero .buttons button:hover {
+  background-color: #f1b6b1;
+}
+
+.hero .chatbox {
+  width: 70%;
+  padding: 20px;
+}
+
+.hero .chat-header h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.hero .chat-messages {
+  background-color: #f0f8ff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  height: 80%;
+  overflow-y: scroll;
+}
+
+.hero .message {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  max-width: 60%;
+}
+
+.hero .user-message {
+  background-color: #e0f7fa;
+  margin-left: auto;
+  text-align: right;
+}
+
+.hero .bot-message {
+  background-color: #f1f8e9;
+  text-align: left;
+}
+
+.hero .chat-input {
+  display: flex;
+  gap: 10px;
+}
+
+.hero .chat-input input {
+  width: 85%;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid #ddd;
+}
+
+.hero .chat-input button {
+  width: 15%;
+  padding: 10px;
+  background-color: #f8e0e5;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.hero .chat-input button:hover {
+  background-color: #f1b6b1;
+}
+
+.hero .bot-message {
+  background-color: #f1f8e9;
+  text-align: left;
+  /* display: flex; */
+  align-items: center;
+  gap: 10px;
+}
+
+.hero .bot-profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.hero .bot-profile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero .app-title {
+  display: flex;
+  flex-direction: column;  /* Stack items vertically */
+  justify-content: center; /* Centers the content vertically inside the container */
+  align-items: center;     /* Centers the content horizontally inside the container */
+  text-align: center;      /* Ensures that the text is aligned in the center */
+  padding: 20px;
+}
+
+.hero .app-title img {
+  width: 210px;  /* Adjust the size of the image */
+  margin-top: 10px; /* Add some space above the image */
 }
