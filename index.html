@@ -38,7 +38,20 @@
     z-index: 9999;
     background-color: rgba(0, 0, 0, 0.5); /* 배경 어둡게 처리 */
     display: none;
+
 } 
+
+.hero {
+  font-family: Arial, sans-serif;
+  background-color: #869ca3;
+  background-size: cover; /* Makes the background image cover the entire page */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  display: flex; /* Use flexbox to center content */
+  justify-content: center; /* Centers horizontally */
+  background-image: url('assets/img/background-img.png'); /* 배경 이미지 경로 */
+  align-items: center; /* Centers vertically */
+}
   </style>
 
   <!-- =======================================================
@@ -286,7 +299,7 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
-              <i class="bi bi-food"></i>
+              <i class="bi bi-search"></i>
               <div>
                 <h4 class="d-none d-lg-block">음식 종류별 추천</h4>
                 <p>

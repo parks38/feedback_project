@@ -1949,18 +1949,6 @@ section,
   /* Add your styles here */
 }
 
-.hero {
-  font-family: Arial, sans-serif;
-  background-color: #869ca3;
-  background-size: cover; /* Makes the background image cover the entire page */
-  background-position: center; /* Centers the image */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
-  display: flex; /* Use flexbox to center content */
-  justify-content: center; /* Centers horizontally */
-  background-image: url('assets/img/background_2.png'); /* 배경 이미지 경로 */
-  align-items: center; /* Centers vertically */
-}
-
 .hero .container {
   display: flex;
   height: 80%;
@@ -2053,7 +2041,7 @@ section,
   margin-bottom: 10px;
   padding: 10px;
   border-radius: 15px;
-  max-width: 60%;
+  max-width: fit-content;
 }
 
 .hero .user-message {
