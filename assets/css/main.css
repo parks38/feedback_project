@@ -1951,7 +1951,7 @@ section,
 
 .hero {
   font-family: Arial, sans-serif;
-  background-color: #7395a0;
+  background-color: #869ca3;
   background-size: cover; /* Makes the background image cover the entire page */
   background-position: center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents the image from repeating */
@@ -2060,11 +2060,15 @@ section,
   background-color: #e0f7fa;
   margin-left: auto;
   text-align: right;
+  border: 2px solid;
+  border-color: rgb(128, 143, 148);
 }
 
 .hero .bot-message {
   background-color: #f1f8e9;
   text-align: left;
+  border: 2px solid;
+  border-color: rgb(128, 143, 148);
 }
 
 .hero .chat-input {
