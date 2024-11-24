@@ -2120,7 +2120,22 @@ section,
 }
 
 @media (max-width: 768px) {
-  #hero {
-    display: none;  /* Hide #hero section on desktop or larger */
+  /* 모바일 화면에서 sidebar를 숨김 */
+  .hero .sidebar {
+    display: none;
+  }
+
+  .hero .container {
+    margin-top: 20%;
+  }
+
+  /* 모바일 화면에서 chatbox를 100% width로 설정 */
+  .hero .chatbox {
+    width: 100%;
+  }
+
+  /* 모바일 화면에서 hero 섹션의 배경 이미지와 상단 여백을 조정 */
+  .hero {
+    padding-top: 0;  /* 기본적으로 여백 없앰 */
   }
 }
