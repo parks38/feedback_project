@@ -2130,3 +2130,9 @@ section,
   width: 210px;  /* Adjust the size of the image */
   margin-top: 10px; /* Add some space above the image */
 }
+
+@media (max-width: 768px) {
+  #hero {
+    display: none;  /* Hide #hero section on desktop or larger */
+  }
+}
