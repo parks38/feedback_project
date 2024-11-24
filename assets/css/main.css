@@ -2147,10 +2147,6 @@ section,
   }
 }
 
-.hero .btn-getstarted {
-  display: none;
-}
-
 @media (max-width: 400px) {
   /* 모바일 화면에서 sidebar를 숨김 */
   .hero .sidebar {
